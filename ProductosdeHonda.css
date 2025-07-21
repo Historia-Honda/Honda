@@ -1,0 +1,92 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #911919;
+      margin: 0;
+      padding: 0;
+      text-align: justify;
+    }
+
+    header {
+      background-color: #060c5f;
+      color: rgb(1, 5, 56);
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 20px;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  
+.menu {
+  background-color: #000000;
+  padding: px 0;
+  box-shadow: yellow 20px 18px 30px 14px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 12px;
+  display: block;
+  transition: background 0.3s;
+}
+
+.menu a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+  
+.titulo {
+  border: 5px solid rgb(7, 7, 7);
+  border-radius: 10px;
+  background-color: rgb(235, 238, 39);
+}
